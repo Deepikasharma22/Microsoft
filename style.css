@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}html,body{
+    width:100%;
+    height:100%;
+    /* background-color: aqua; */
+}
+
+#main{
+    width:100%;
+    height:100%;
+    /* background-color: rgb(245, 187, 245); */
+}
+#main #nav{
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+    height:10%;
+    background-color: rgb(244, 249, 249);
+}
+#nav #first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    width: 50%;
+    height:100%;
+    /* background-color: cornsilk; */
+}
+#first h1{
+    font-size:3opx;
+    font-weight: 400;
+}
+#nav #second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    width:40%;
+    height:100%;
+    /* background-color: rgb(88, 150, 249); */
+}
+#second a{
+    font-size:30px;
+    font-weight:300;
+    text-decoration: none;
+    color: black;
+}
+#second h2{
+    font-size: 30px;
+    font-weight:300;
+}
+#second #menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    width:370px;
+    height:100%;
+    /* background-color: khaki; */
+}
+#menu h2{
+    font-size: 25px;
+    font-weight:400;
+}
+#menu button{
+    font-size:25px;
+    font-weight: 100;
+    border-radius:50%;
+    border-color: black;
+    /* color: rgb(19, 33, 60); */
+}
+#main #section-1{
+    width:100%;
+    height: 90%;
+    /* background-color: brown; */
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Card-Banner-4-3-Surface-Laptop-13-2Ed-Pro-12-2Ed-SnapdragonX2-Platinum-Attract?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1597&hei=900&qlt=90&fit=constrain");
+    background-size: cover;
+    background-position: center;
+}
